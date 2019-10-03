@@ -1,10 +1,20 @@
 -# want to loop through all of the documents and then display each document with a link to its title, and then underneath that i want to display how long ago the doc was created, 
 -# uses the timestamp of a docs creation and request that time here via ('time_ago_in_words' built in function)
+-#if the user already has documents then i want to show this if not then i want to give them a message that prompts them to create documents.
 
-- @docs.each do |doc|
-    %h2= link_to doc.title, doc 
-    %p= time_ago_in_words(doc.created_at)
-    -# create small snippet of text
-    %p= truncate(doc.content, length:50)
+.wrapper_with_padding
+    #docs.clearfix 
+        - unless @docs.blank? 
 
-= link_to "Create Doc", new_doc_path 
+            - @docs.each do |doc|
+
+                %a{ href: ( url_for [doc])}
+                    .doc 
+                        %p.title= doc.title
+                        %p.date= time_ago_in_words(doc.created_at)
+                        -# create small snippet of text
+                        %p.content= truncate(doc.content, length:50)
+        - else 
+            %h2 Create Doc! 
+            %p Start Creating Documents and Organize your life! 
+            %button= link_to "Create Doc", new_doc_path 
