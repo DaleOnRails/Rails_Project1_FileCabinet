@@ -59,6 +59,6 @@ Rails.application.configure do
   # routes, locales, etc. This feature depends on the listen gem.
   config.file_watcher = ActiveSupport::EventedFileUpdateChecker
 
-  #mailing settings for devise: if user forgets their password then have somewhere to send their login # info so they can log back in
+  #mailing settings for devise for user forgets their password then have somewhere to send their login # info so they can log back in
   config.action_mailer.default_url_options = { host: "localhost", port: 3000 }
 end

@@ -17,14 +17,14 @@ class DocsController < ApplicationController
   #for creating a new view - related to create method because to actually render a new view i need to create something
   def new
     #creates a new document
-    @doc = Doc.new
+    @doc = current_user.docs.build
   end
 
   #--5--
   #create method does not have a view itself. It makes changes to a database using the edit view.
   def create
     #creates a new document and also its parameters(its title and its content)
-    @doc = Doc.new(doc_params)
+    @doc = current_user.docs.build(doc_params)
 
     #says if the doc is saved then get the application to redirect the user to the document that was #just created/saved.
     if @doc.save
