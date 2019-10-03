@@ -1,3 +1,19 @@
 -#--1--check if view is correctly routed
-%h1 Voila! This is the placeholder!
+#banner
+    .banner_content 
+        %h1 File Cabinet 
+        %p Your Life's Work. Organized, always.
+        %button= link_to 'Enter', new_user_registration_path  
 
+#callouts 
+    .callout_inner 
+        .wrapper 
+            .callout 
+                %h2 Organize
+                %p  Lorem ipsum dolor amet fashion axe chicharrones unicorn letterpress pitchfork tousled pinterest yr pabst irony fingerstache etsy. Coloring book vexillologist salvia kinfolk, narwhal +1 taiyaki post-ironic tumeric gentrify. Tbh jianbing yuccie art party, pour-over keffiyeh woke church-key. Paleo cloud bread cold-pressed you probably haven't heard of them +1 kombucha gentrify godard selvage tumblr twee stumptown. Scenester salvia paleo subway tile. Pok pok crucifix butcher, YOLO cardigan church-key brooklyn venmo selfies scenester letterpress chillwave man bun street art.
+
+#bottom_cta 
+    .wrapper  
+        %h2 Go Ahead! 
+        %br 
+        %button= link_to "Join Now", new_user_registration_path  
