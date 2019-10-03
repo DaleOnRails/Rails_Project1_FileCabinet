@@ -1,0 +1,9 @@
+ /*to add my own css styling i removed the require_tree default code which was above require_self. Now i can manually import my style sheets into scss. 
+ *= require_self
+ */
+
+ @import 'normalize';
+ @import "global.css.scss";
+ @import "docs.css.scss";
+ @import "welcome.css.scss";
+
