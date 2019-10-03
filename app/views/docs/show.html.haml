@@ -1,13 +1,15 @@
 -#--7--for show i want to display the title for a document and also its content.
-%h1= @doc.title 
-%p= @doc.content  
+.wrapper_with_padding
+    #doc_show 
+        %h1.title= @doc.title 
+        %p= simple_format(@doc.content)
+  
 
--# Where are all these routes/paths coming from? = from 'rake routes'. if i run that command i will see all of these paths. They were al created when i inserted the "resources :docs" code in routes.rb 
 
--#All Docs = link back to index homepage route
-= link_to "All Docs", docs_path
--#Fix Doc = link to edit route
-= link_to "Fix Doc", edit_doc_path(@doc)
--#Trash It = link to delete route. includes a pop-up-message method calling the http-verb 'delete'
-= link_to "Trash It", doc_path(@doc), method: :delete, data: { confirm: "Are you sure?"}
+.buttons
+    -# Where are all these routes/paths coming from? = from 'rake routes'. if i run that command i -#will -#see all of these paths. They were al created when i inserted the "resources :docs" code -#in routes.rb 
+    -#Fix Doc = link to edit route
+    = link_to "Fix Doc", edit_doc_path(@doc), class: "button"
+    -#Trash It = link to delete route. includes a pop-up-message method calling the http-verb 'delete'
+    = link_to "Trash It", doc_path(@doc), method: :delete, data: { confirm: "Are you sure?"}, class: "button"
 
