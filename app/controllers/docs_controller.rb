@@ -5,8 +5,8 @@ class DocsController < ApplicationController
   #--2-- create crud methods for a document
   #shows all docs in index view
   def index
-    #display files in descending order
-    @docs = Doc.all.order("created_at DESC")
+    #says to display docs ony with the same ID as a users ID.
+    @docs = Doc.where(user_id: current_user)
   end
 
   #shows single doc, will create the show for view.
