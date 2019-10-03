@@ -1,7 +1,12 @@
 class DocsController < ApplicationController
+  #run the find_doc private method first to get a docs id.
+  before_action :find_doc, only: [:show, :edit, :update, :destroy]
 
+  #--2-- create crud methods for a document
   #shows all docs in index view
   def index
+    #display files in descending order
+    @docs = Doc.all.order("created_at DESC")
   end
 
   #shows single doc, will create the show for view.
@@ -14,6 +19,7 @@ class DocsController < ApplicationController
     @doc = Doc.new
   end
 
+  #--5--
   #create method does not have a view itself. It makes changes to a database using the edit view.
   def create
     #creates a new document and also its parameters(its title and its content)
@@ -47,8 +53,11 @@ class DocsController < ApplicationController
   private
 
   def find_doc
+    #says to find the document we want to display by its params ID
+    @doc = Doc.find(params[:id])
   end
 
+  #--6--
   def doc_params
     #this method DEFINES the parameters of a document. It 'permits' a doc to have these attributes.
     params.require(:doc).permit(:title, :content)
