@@ -4,16 +4,30 @@ class DocsController < ApplicationController
   def index
   end
 
-  #shows single doc, will create the show for view
+  #shows single doc, will create the show for view.
   def show
   end
 
   #for creating a new view - related to create method because to actually render a new view i need to create something
   def new
+    #creates a new document
+    @doc = Doc.new
   end
 
   #create method does not have a view itself. It makes changes to a database using the edit view.
   def create
+    #creates a new document and also its parameters(its title and its content)
+    @doc = Doc.new(doc_params)
+
+    #says if the doc is saved then get the application to redirect the user to the document that was just created/saved.
+    if @doc.save
+      redirect_to @doc
+      #says if it fails to save then render the doc again so the user can have another go at saving it.
+      #The reason why render 'new' is used here instead of 'redirect_to' is because redirect_to is a NEW http refresh. Meaning if the user has a long document and a save fails then if we used redireect_to they would lose all of their previous work!
+      #but render does not refresh the page. It keeps the user where they are and they get to have another go at saving the doc.
+    else
+      render "new"
+    end
   end
 
   #update action is responsible for editing views
@@ -36,5 +50,7 @@ class DocsController < ApplicationController
   end
 
   def doc_params
+    #this method DEFINES the parameters of a document. It 'permits' a doc to have these attributes.
+    params.require(:doc).permit(:title, :content)
   end
 end

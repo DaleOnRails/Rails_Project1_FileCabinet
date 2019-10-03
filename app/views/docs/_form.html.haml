@@ -1,0 +1,8 @@
+-# syntax for creating forms with the simple_form ruby gem 
+
+-# what this does is uses the 'doc' instance variable which is obviously an instance of a document. 
+-#says for each doc then create two input fields and a submit button
+= simple_form_for @doc do |f|
+    = f.input :title 
+    = f.input :content 
+    = f.button :submit 
