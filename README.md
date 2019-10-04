@@ -1,6 +1,6 @@
 # Site Img Overview:
 
-![site-image1](Screenshot from 2019-10-04 11-24-15.png)
+![site-image1](https://github.com/fudomyo-hub/rails_project1_FileCabinet/blob/master/readme_images/Screenshot%20from%202019-10-04%2011-21-29.png?raw=true)
 
 
 ![site-image2](http://url/to/img.png)
