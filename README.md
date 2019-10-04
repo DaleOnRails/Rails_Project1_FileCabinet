@@ -1,5 +1,9 @@
 
 # Purpose:
+Part 1 of my goal i have set myself: To complete 15 Rails applications in the 14 day holiday i have beetween terms in my Coding Bootcamp course @coderacademy Brisbane, Australia. Lesssssssss get eet!!!!!
+
+
+## Application
 A quick draft project inspired by Evernote to help me learn the ropes of Ruby. 
 
 This project was a part of the 8 beautiful Rails projects.....Udemy course. Link: https://www.udemy.com/course/8-beautiful-ruby-on-rails-apps-in-30-days/ 
