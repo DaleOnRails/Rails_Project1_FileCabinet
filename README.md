@@ -1,6 +1,11 @@
 
 # Purpose:
-A quick draft project inspired by Evernote to help me learn the ropes of Ruby.
+A quick draft project inspired by Evernote to help me learn the ropes of Ruby. 
+
+This project was a part of the 8 beautiful Rails projects.....Udemy course. Link: https://www.udemy.com/course/8-beautiful-ruby-on-rails-apps-in-30-days/ 
+
+All credit is to go to Yonathan Ayenew. Give him some love as this udemy course was and still is completely free.
+Github: https://github.com/CrashLearner
 
 NOTE: This application is not to be taken serious. It was completed in less then a day and the focus was primarily on learning the conventions of Ruby On Rails and because of this the css didn't get much love from me. 
 
