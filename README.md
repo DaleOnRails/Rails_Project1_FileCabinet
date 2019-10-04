@@ -3,23 +3,28 @@
 ![site-image1](https://github.com/fudomyo-hub/rails_project1_FileCabinet/blob/master/readme_images/Screenshot%20from%202019-10-04%2011-21-29.png?raw=true)
 
 
-![site-image2](http://url/to/img.png)
+![site-image2](https://github.com/fudomyo-hub/rails_project1_FileCabinet/blob/master/readme_images/Screenshot%20from%202019-10-04%2011-21-43.png?raw=true)
 
 
-![site-image3](http://url/to/img.png)
+![site-image3](https://github.com/fudomyo-hub/rails_project1_FileCabinet/blob/master/readme_images/Screenshot%20from%202019-10-04%2011-21-52.png?raw=true)
 
 
-![site-image4](http://url/to/img.png)
+![site-image4](https://github.com/fudomyo-hub/rails_project1_FileCabinet/blob/master/readme_images/Screenshot%20from%202019-10-04%2011-22-05.png?raw=true)
 
 
-![site-image5](http://url/to/img.png)
+![site-image5](https://github.com/fudomyo-hub/rails_project1_FileCabinet/blob/master/readme_images/Screenshot%20from%202019-10-04%2011-22-26.png?raw=true)
 
 
-![site-image6](http://url/to/img.png)
+![site-image6](https://github.com/fudomyo-hub/rails_project1_FileCabinet/blob/master/readme_images/Screenshot%20from%202019-10-04%2011-23-26.png?raw=true)
 
 
-![site-image7](http://url/to/img.png)
+![site-image7](https://github.com/fudomyo-hub/rails_project1_FileCabinet/blob/master/readme_images/Screenshot%20from%202019-10-04%2011-23-46.png?raw=true)
 
+
+![site-image8](https://github.com/fudomyo-hub/rails_project1_FileCabinet/blob/master/readme_images/Screenshot%20from%202019-10-04%2011-23-56.png?raw=true)
+
+
+![site-image9](https://github.com/fudomyo-hub/rails_project1_FileCabinet/blob/master/readme_images/Screenshot%20from%202019-10-04%2011-24-15.png?raw=true)
 
 
 
