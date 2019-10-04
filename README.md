@@ -1,3 +1,20 @@
+
+# Purpose:
+A quick draft project inspired by Evernote to help me learn the ropes of Ruby.
+
+NOTE: This application is not to be taken serious. It was completed in less then a day and the focus was primarily on learning the conventions of Ruby On Rails and because of this the css didn't get much love from me. 
+
+The UI is super cringe so beware.
+
+I've tried to include detailed steps in development at the bottom of this file mainly featuring commands needed for heroku and Rails.
+
+As mentioned below, this readme.md file is a quick glimpse, i would much rather be coding then documenting (can i get a holla?)
+
+
+
+#=================================================================
+
+
 # Site Img Overview:
 
 ![site-image1](https://github.com/fudomyo-hub/rails_project1_FileCabinet/blob/master/readme_images/Screenshot%20from%202019-10-04%2011-21-29.png?raw=true)
