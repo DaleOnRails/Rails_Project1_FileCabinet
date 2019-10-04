@@ -1,6 +1,6 @@
 
 # Purpose:
-Part 1 of my goal i have set myself: To complete 15 Rails applications in the 14 day holiday i have beetween terms in my Coding Bootcamp course @coderacademy Brisbane, Australia, so that i may acquire MAD TEKKERS in rails. Lesssssssss get eet!!!!!
+Part 1 of my goal i have set myself: To complete 15 Rails applications in the 14 day holiday i have beetween terms in my Coding Bootcamp course @coderacademy Brisbane, Australia. So that i may acquire MAD TEKKERS in rails, Lesssssssss get eet!!!!!
 
 
 ## Application
